@@ -14,7 +14,7 @@ def get_base():
     """
     return int(input("Which base is the number system?\n"))
 
-number = get_number()
+x = get_number()
 base = get_base()
 
 y = int(x / base)
